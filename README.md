@@ -10,7 +10,7 @@ Following [this](https://learn.microsoft.com/en-us/sql/integration-services/less
 
 ## Contents
 
-### JOURNAL.md
+### [JOURNAL.md](JOURNAL.md)
 
 Every step taken from setting up SQL to running the package.
 
