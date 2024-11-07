@@ -145,3 +145,64 @@ Verified with the following
 ```sql
 SELECT * FROM NewFactCurrencyRate2
 ```
+
+## Lesson 2
+
+Add Looping
+
+### Lesson 2-1
+
+Copy/Paste Lesson 1.dtsx and generate a new ID
+
+### Lesson 2-2
+
+Create a ForEach Container.
+Change to the ForEachFile Enum and browse to the Sample data
+We also added a variable named varFileName with no value
+
+### Lesson 2-3
+
+Convert the Flat File connection to a package connection
+This allow us to use the variable above as our connection string
+
+### Lesson 2-4
+
+Test the package.
+Worked fine first run.
+
+## Lesson 3
+
+Add Logging. 
+Thank goodness the last package just ran with no output at all
+
+### Lesson 3-1
+
+Copy the package again
+This time I checked the ID after copying and it was already changed
+No need to Generate a new ID as the tutorial says
+
+However the name of the Package (not the file) is not automatically changed to match the new file name
+
+### Lesson 3-2
+
+Extensions > SSIS > Logging
+Created a File logger with two events selected
+
+### Lesson 3-3
+
+Ran the package and the log file was created
+However the Log Events window seem broken
+It's either see through or completely white
+I can't find anyone else with this issue and simple troubleshooting short of rebooting has not corrected it
+
+## Lesson 4
+
+I'm not even going to mention 4-1
+We all know the first step
+
+### Lesson 4-2
+
+Created Currency_BAD.txt by copying Currency_VEB.txt
+and then running the `:%s/VEB/BAD` command in Neovim
+
+
