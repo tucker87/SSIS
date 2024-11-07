@@ -57,3 +57,7 @@ sqlcmd create mssql --accept-eula --using https://github.com/Microsoft/sql-serve
 # Test
 sqlcmd query "SELECT @@version"
 ```
+
+Installed Azure Data Studio and connected it to my SQL Server
+Installed SQL Database Projects extension
+Ran Database: New command to create the SSIS Learning project
