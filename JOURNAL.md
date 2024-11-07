@@ -205,4 +205,54 @@ We all know the first step
 Created Currency_BAD.txt by copying Currency_VEB.txt
 and then running the `:%s/VEB/BAD` command in Neovim
 
+Ran package and it failed successfully
 
+### Lesson 4-3
+
+Added a script node and set up its column data
+In another VS instance I added a single line of C#
+
+Oops! I was in Lesson 2 still due to trying to debug the logging issue.
+Reviewed any changes to Lesson 2 in git but found that I hadn't been committing
+after each lesson as I should be. :-(
+
+### Lesson 4-4
+
+Added a Flat File Destination for error output
+Tried to run package but got error
+Seems that when I migrated the Script Node it's script didn't come with it
+Actually seems I just needed to build it again!
+
+### Lesson 4-5
+
+Project now successfully fails with Error Output
+
+Git commit!
+
+## Lesson 5
+
+### Lesson 5-2
+
+Added variable
+
+Breaking Change:
+I had apparently added my sql connection on a project level
+This prevented me from converting the project to package deployment model
+
+Lessons 1-4 are, I believe now all broken.
+
+Setup the XML config file for our folder variable
+
+### Lesson 5-3
+
+Used Neovim to edit the XML file to set the value.
+Note to Self: Need an XML LSP for Neovim
+
+### Lesson 5-4
+
+Before running the test I need to fix up the breaking change from 5-2.
+I expected this to just be setting the source again but the custom SQL script
+was also lost and I had to go retrieve that!
+
+Now Lesson 5 runs fine.
+RIP Lessons 1-4
