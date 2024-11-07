@@ -256,3 +256,10 @@ was also lost and I had to go retrieve that!
 
 Now Lesson 5 runs fine.
 RIP Lessons 1-4
+
+## Lesson 6
+
+This entire lesson was just putting stuff back the way it was...
+Basically
+
+## Lesson 7
