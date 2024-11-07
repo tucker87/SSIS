@@ -1,5 +1,27 @@
 # How I setup Sql+SSIS in Docker
 
+<!--toc:start-->
+- [How I setup Sql+SSIS in Docker](#how-i-setup-sqlssis-in-docker)
+  - [The system](#the-system)
+  - [The Tools](#the-tools)
+  - [Install sqlcmd (Prerequisite)](#install-sqlcmd-prerequisite)
+  - [Setup Docker Compose](#setup-docker-compose)
+    - [Original Commands from Docs](#original-commands-from-docs)
+    - [Composerize.com Output](#composerizecom-output)
+    - [Load Adventureworks Sample Data](#load-adventureworks-sample-data)
+  - [Lesson 1](#lesson-1)
+    - [Lesson 1-1](#lesson-1-1)
+    - [Lesson 1-1 (Again)](#lesson-1-1-again)
+    - [Lesson 1-2](#lesson-1-2)
+    - [Lesson 1-3](#lesson-1-3)
+    - [Lesson 1-4](#lesson-1-4)
+    - [Lesson 1-5](#lesson-1-5)
+    - [Lesson 1-6](#lesson-1-6)
+    - [Lesson 1-7](#lesson-1-7)
+    - [Lesson 1-8](#lesson-1-8)
+    - [Lesson 1-9](#lesson-1-9)
+<!--toc:end-->
+
 ## The system
 
 - Proxmox server
@@ -52,8 +74,6 @@ image: mcr.microsoft.com/mssql/server:2022-latest
 docker compose up -d (alias = dcu)
 ```
 
-## Lesson 1
-
 ### Load Adventureworks Sample Data
 
 ```bash
@@ -62,6 +82,8 @@ sqlcmd create mssql --accept-eula --using https://github.com/Microsoft/sql-serve
 # Test
 sqlcmd query "SELECT @@version"
 ```
+
+## Lesson 1
 
 Installed Azure Data Studio and connected it to my SQL Server
 Installed SQL Database Projects extension
