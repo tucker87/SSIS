@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SSIS Tutorial", "SSIS Tutorial\SSIS Tutorial.dtproj", "{1129061E-E50D-4CA0-B4E9-74411DCDA625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1129061E-E50D-4CA0-B4E9-74411DCDA625}.Development|Default.ActiveCfg = Development
+		{1129061E-E50D-4CA0-B4E9-74411DCDA625}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95093BA6-F09E-4AF4-9B84-5E859F6293BD}
+	EndGlobalSection
+EndGlobal
