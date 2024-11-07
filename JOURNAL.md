@@ -20,6 +20,27 @@
     - [Lesson 1-7](#lesson-1-7)
     - [Lesson 1-8](#lesson-1-8)
     - [Lesson 1-9](#lesson-1-9)
+  - [Lesson 2](#lesson-2)
+    - [Lesson 2-1](#lesson-2-1)
+    - [Lesson 2-2](#lesson-2-2)
+    - [Lesson 2-3](#lesson-2-3)
+    - [Lesson 2-4](#lesson-2-4)
+  - [Lesson 3](#lesson-3)
+    - [Lesson 3-1](#lesson-3-1)
+    - [Lesson 3-2](#lesson-3-2)
+    - [Lesson 3-3](#lesson-3-3)
+  - [Lesson 4](#lesson-4)
+    - [Lesson 4-2](#lesson-4-2)
+    - [Lesson 4-3](#lesson-4-3)
+    - [Lesson 4-4](#lesson-4-4)
+    - [Lesson 4-5](#lesson-4-5)
+  - [Lesson 5](#lesson-5)
+    - [Lesson 5-2](#lesson-5-2)
+    - [Lesson 5-3](#lesson-5-3)
+    - [Lesson 5-4](#lesson-5-4)
+  - [Lesson 6](#lesson-6)
+    - [Lesson 6-4](#lesson-6-4)
+  - [Conclusion](#conclusion)
 <!--toc:end-->
 
 ## The system
@@ -172,7 +193,7 @@ Worked fine first run.
 
 ## Lesson 3
 
-Add Logging. 
+Add Logging.
 Thank goodness the last package just ran with no output at all
 
 ### Lesson 3-1
@@ -181,7 +202,8 @@ Copy the package again
 This time I checked the ID after copying and it was already changed
 No need to Generate a new ID as the tutorial says
 
-However the name of the Package (not the file) is not automatically changed to match the new file name
+However the name of the Package (not the file) is not
+automatically changed to match the new file name
 
 ### Lesson 3-2
 
@@ -193,7 +215,8 @@ Created a File logger with two events selected
 Ran the package and the log file was created
 However the Log Events window seem broken
 It's either see through or completely white
-I can't find anyone else with this issue and simple troubleshooting short of rebooting has not corrected it
+I can't find anyone else with this issue and simple troubleshooting short of
+rebooting has not corrected it
 
 ## Lesson 4
 
@@ -262,4 +285,20 @@ RIP Lessons 1-4
 This entire lesson was just putting stuff back the way it was...
 Basically
 
-## Lesson 7
+### Lesson 6-4
+
+We have to veer fairly far off course in this lesson.
+Due to running my SQL Server in a Linux OS I can't deploy SSIS to it
+[Source](https://stackoverflow.com/questions/53368822/not-able-to-create-ssis-db-catlog-in-linux-rhel-7)
+
+I looked at [this guide](https://www.cloudfronts.com/blog/power-bi/ssis-package-deployment-using-file-system/)
+on how to do a file system deployment and
+I've done this in the past so I won't be doing it today
+
+## Conclusion
+
+This was a good refresher on basic SSIS projects
+
+I will not be choosing this tech for future projects as I feel
+it's much more limited and slower than integrations I've writting in C#
+in a similar timeframe.
